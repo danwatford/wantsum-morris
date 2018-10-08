@@ -1,0 +1,29 @@
+
+/* Apply some padding to the top of the body so the fixed navigation bar does not cover content */
+body {
+    padding-top: 6.5rem;
+}
+
+.navbar-brand img {
+    max-height: 4rem;
+}
+
+#site-image {
+    max-width: 400px;
+}
+
+.hop-image {
+    max-width: 40px;
+}
+
+.hop-line {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Copyright image and text links */
+#copyright {
+	display: block;
+	max-width: 500px;
+}
