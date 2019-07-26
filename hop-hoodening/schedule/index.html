@@ -3,21 +3,73 @@ title: "Wantsum Morris: Hop Hoodening Dance Sides"
 layout: "hophoodeningwithmap"
 ---
 
+<p>Everyone is welcome to attend the Cathedral service and to enjoy the skilful
+    presentations of dancing around the city. Give thanks for the wonder of beer!</p>
+
+<dl class="row">
+    <dt class="col-sm-2">10:50</dt>
+    <dd class="col-sm-10">
+        <div class="lead">Procession within the Cathedral Precincts into the Cathedral.</div>
+        <div>Led by the Hop Queen in her hop bower accompanied by her Princesses.</div>
+    </dd>
+    <dt class="col-sm-2">11:00</dt>
+    <dd class="col-sm-10">
+        <div class="lead">Cathedral Service of Celebration and Blessing of the Hops.</div>
+        <dip>Attended by the Lord Mayor of Canterbury.</dip>
+        <div>This year Rabble, our guests from Lenham, will dance during the service.</div>
+    </dd>
+    <dt class="col-sm-2">11:45</dt>
+    <dd class="col-sm-10">
+        <div class="lead">Dancing display in the Precincts.</div>
+        <div>By all the attendant Morris sides.</div>
+        <div>Sampling of Canterbury Cathedral Ale.</div>
+    </dd>
+    <dt class="col-sm-2">12:15-13:45</dt>
+    <dd class="col-sm-10">
+        <div class="lead">The various Morris sides may be seen dancing around the city centre while the Hop Queen and
+            her
+            Princesses distribute blessed hops to the good people of Canterbury.
+        </div>
+
+        TODO - Add colour to tours and have the colours match markers on map
+        Check that all colours are displayed clearly in both text and on map.
+
+        <div>There are three tours:</div>
+        <dl class="row">
+            <dt class="col-sm-3">Wild Western</dt>
+            <dd class="col-sm-9">
+                <div>12:20 - Outside the Marlowe Theatre</div>
+                <div>13.05 - The Black Griffin Pub</div>
+                <div>Featuring: Headcorn Morris, East Kent Morris, Loose Women</div>
+            </dd>
+            <dt class="col-sm-3">Central Heartlands</dt>
+            <dd class="col-sm-9">
+                <div>12.20 - High Street, head of Guildhall Street</div>
+                <div>13.05 - Corner of Orange Street & Sun Street</div>
+                <div>Featuring: Oyster Morris, Kettle Bridge Clogs, Dead Horse Morris and the Broomdashers</div>
+            </dd>
+            <dt class="col-sm-3">Far Eastern</dt>
+            <dd class="col-sm-9">
+                <div>12.15 - Outside the Cathedral Shop</div>
+                <div>13.00 - St. George's Tower</div>
+                <div>Featuring: The Hop Queen and Princesses, Rabble, Offcumduns, Wantsum Morris Men</div>
+            </dd>
+        </dl>
+    </dd>
+    <dt class="col-sm-2">14:45</dt>
+    <dd class="col-sm-10">
+        <div class="lead">Procession up the High Street.</div>
+        <div>From Best Lane to Rose Square.</div>
+        <div>Again led by the Hop Queen in her hop bower accompanied by her Princesses.</div>
+    </dd>
+    <dt class="col-sm-2">15:00</dt>
+    <dd class="col-sm-10">
+        <div class="lead">Massed Display of Dancing in Rose Square.</div>
+        <div>By all the attendant Morris sides until 4pm.</div>
+    </dd>
+</dl>
+
 <div id="mapid" style="height: 400px;"></div>
-
-<p>This year the celebrations will begin at 10.50am with a procession within the Cathedral precincts and into the
-    Cathedral. The procession will be led by the Hop Queen in her hop bower accompanied by her Princesses. At 11am
-    there will be a service in the Cathedral Nave attended by the Lord Mayor of Canterbury. During the service the
-    Blessing of the Hops will be conducted and this year Rabble, our guests from Lenham, will dance. Following this
-    at 11.45 there will be a display of dancing by all the attendant sides in the precincts.</p>
-
-
-<p>From 12.15pm the various Morris sides may be seen dancing around the city while the Hop Queen and her Princesses
-    distribute blessed hops to the good people of Canterbury. They then meet up at Best Lane at 2.45 to process up
-    the High Street to Rose Square for a final mass display of dancing. Everyone is welcome to attend the Cathedral
-    service and to enjoy the skilful presentations of dancing around the city.</p>
-
-<p>For more information: <a href="mailto:hophoodening@gmail.com">hophoodening@gmail.com</a></p>
 
 <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
         integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
@@ -66,6 +118,9 @@ layout: "hophoodeningwithmap"
         [51.277379, 1.080501]
     ];
     var roseSquareProcessionPolyline = L.polyline(roseSquareProcessionLatLons).addTo(mymap);
+
+    var precinctsMarker = L.marker([51.279625, 1.082202]).addTo(mymap).setIcon(wantsumIcon);
+    precinctsMarker.bindPopup("<b>11:45 am</b><br>Mass Dancing");
 
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
         maxZoom: 18,
