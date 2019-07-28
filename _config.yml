@@ -16,9 +16,10 @@
 title: Wantsum Morris Men
 email: webmaster@wantsum-morris.org.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Wantsum Morris Men formed as a club in 1967, with the members living both sides of the Wantsum Channel,
+  which in former times separated Thanet from the rest of Kent. The repertoire is drawn from the vast selection
+  of traditional dances collected from the villages of the Cotswolds, complemented by some more recent dances in
+   the Cotswold traditions as well as a few from the Welsh borders and a rapper dance from the North East of England.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wantsum-morris.org.uk" # the base hostname & protocol for your site
 twitter_username: jekyllrb
