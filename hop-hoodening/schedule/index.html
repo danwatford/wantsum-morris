@@ -112,10 +112,15 @@ activeNav: "Hop Hoodening"
     {% endfor %}
 
     {% for tour in site.data.hop-hoodening-tours %}
+        var tourMarker = L.divIcon({
+            html: '<i class="{{tour.fa-class}}" style="color: {{tour.colour}}"></i>',
+            iconSize: [40, 40],
+            className: 'tourIcon'
+        });
         {% for point in tour.points %}
             L.marker([{{point.lat}}, {{point.lon}}]).addTo(mymap)
-                .setIcon({{tour.icon}})
-                .bindPopup("<b>{{point.time}} - {{tour.name}}</b><br>{{point.description}}<br>{{tour.sides}}");
+                .setIcon(tourMarker)
+                .bindPopup("<b>{{point.time}} - {{tour.name}} Tour</b><br>{{point.description}}<br>{{tour.sides}}");
         {% endfor %}
     {% endfor %}
 

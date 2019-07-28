@@ -1,6 +1,8 @@
 - name: Wild Western
   sides: Headcorn Morris, East Kent Morris, Loose Women
-  icon: hopsIcon
+  icon: tourWest
+  colour: "#FF3333"
+  fa-class: fas fa-beer
   points:
     - lat: 51.280792
       lon: 1.078383
@@ -13,7 +15,9 @@
 
 - name: Central Heartlands
   sides: Oyster Morris, Kettle Bridge Clogs, Dead Horse Morris and the Broomdashers
-  icon: hopsIcon
+  icon: tourCentral
+  colour: "#3333FF"
+  fa-class: fas fa-beer
   points:
     - lat: 51.279195
       lon: 1.079690
@@ -26,7 +30,9 @@
 
 - name: Far Eastern
   sides: The Hop Queen and Princesses, Rabble, Offcumduns, Wantsum Morris Men
-  icon: hopsIcon
+  icon: tourEast
+  colour: "#00cc00"
+  fa-class: fas fa-beer
   points:
     - lat: 51.278934
       lon: 1.081951

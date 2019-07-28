@@ -50,3 +50,9 @@ body {
 .tour-3 {
     color: #00cc00;
 }
+
+.tourIcon {
+    text-align: center; /* Horizontally center the text (icon) */
+    line-height: 40px; /* Vertically center the text (icon) */
+    font-size: 30px;
+}
