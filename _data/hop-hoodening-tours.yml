@@ -1,0 +1,38 @@
+- name: Wild Western
+  sides: Headcorn Morris, East Kent Morris, Loose Women
+  icon: hopsIcon
+  points:
+    - lat: 51.280792
+      lon: 1.078383
+      time: 12.20 pm
+      description: Outside the Marlowe
+    - lat: 51.280974
+      lon: 1.076741
+      time: 13.05 pm
+      description: The Black Griffin Pub
+
+- name: Central Heartlands
+  sides: Oyster Morris, Kettle Bridge Clogs, Dead Horse Morris and the Broomdashers
+  icon: hopsIcon
+  points:
+    - lat: 51.279195
+      lon: 1.079690
+      time: 12.20 pm
+      description: High Street, head of Guildhall Street
+    - lat: 51.279960
+      lon: 1.080664
+      time: 13.05 pm
+      description: Corner of Orange Street & Sun Street
+
+- name: Far Eastern
+  sides: The Hop Queen and Princesses, Rabble, Offcumduns, Wantsum Morris Men
+  icon: hopsIcon
+  points:
+    - lat: 51.278934
+      lon: 1.081951
+      time: 12.15 pm
+      description: Outside the Cathedral Shop
+    - lat: 51.277514
+      lon: 1.082616
+      time: 13.00 pm
+      description: St. George's Tower
