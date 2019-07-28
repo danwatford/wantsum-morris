@@ -14,45 +14,11 @@
     <link rel="stylesheet" href="/css/wantsum-morris.css?v=3">
 
     <link rel="icon" href="/favicon.png">
-</head>
 
-<body>
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="/">
-        <img src="/favicon.png"/>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/events">Events</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/hop-hoodening">Hop Hoodening</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/boxing-day">Boxing Day</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/gallery">Gallery</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/links">Other Sides and Links</a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.facebook.com/cotswolddance/" class="fa fa-facebook"></a>
-                <a target="_blank" href="https://www.instagram.com/wantsummorris/" class="fa fa-instagram"></a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<div class="container">
-    <div class="row">
-        <div class="col-md-8">
+    {% if page.includeMapLibrary %}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+          crossorigin=""/>
+    {% endif %}
+</head>
 

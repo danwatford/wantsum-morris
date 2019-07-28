@@ -1,19 +1,31 @@
 {% include header.html %}
-<section class="event-panel event-into">
-    <h1>Hop Hoodening: An East Kent Tradition Continues</h1>
+<body>
+{% include navigation.html %}
 
-    <nav class="nav justify-content-between">
-        <a class="nav-link text-muted" href="/hop-hoodening">Introduction</a>
-        <a class="nav-link text-muted" href="/hop-hoodening/dance-sides">Dance Sides</a>
-        <a class="nav-link text-muted" href="/hop-hoodening/schedule">Schedule and Map</a>
-        <a class="nav-link text-muted" href="/hop-hoodening/history">History</a>
-        <a class="nav-link text-muted" href="/hop-hoodening/ale">Hop Hoodening Ale</a>
-    </nav>
-    <div class="text-center">
-        <img class="hop-image" src="/images/hops-image.png"/>
-        <img class="hop-image" src="/images/hops-image.png"/>
-        <img class="hop-image" src="/images/hops-image.png"/>
+<section class="event-panel event-into">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+            <h1>Hop Hoodening: An East Kent Tradition Continues</h1>
+
+                <nav class="nav justify-content-between">
+                    <a class="nav-link text-muted" href="/hop-hoodening">Introduction</a>
+                    <a class="nav-link text-muted" href="/hop-hoodening/dance-sides">Dance Sides</a>
+                    <a class="nav-link text-muted" href="/hop-hoodening/schedule">Schedule and Map</a>
+                    <a class="nav-link text-muted" href="/hop-hoodening/history">History</a>
+                    <a class="nav-link text-muted" href="/hop-hoodening/ale">Hop Hoodening Ale</a>
+                </nav>
+                <div class="text-center">
+                    <img class="hop-image" src="/images/hops-image.png"/>
+                    <img class="hop-image" src="/images/hops-image.png"/>
+                    <img class="hop-image" src="/images/hops-image.png"/>
+                </div>
+                {{ content }}
+            </div>
+            <div class="col-md-4">
+                {% include footerCarousel.html %}
+            </div>
+        </div>
     </div>
-    {{ content }}
 </section>
 {% include footer.html %}

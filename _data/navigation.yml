@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: Events
+  link: /events/
+- name: Hop Hoodening
+  link: /hop-hoodening/
+- name: Boxing Day
+  link: /boxing-day/
+- name: Gallery
+  link: /gallery/
+- name: Other Sides and Links
+  link: /links/
