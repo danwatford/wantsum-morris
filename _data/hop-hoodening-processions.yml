@@ -1,0 +1,43 @@
+- name: Cathedral
+  points:
+    - lat: 51.279349
+      lon: 1.083777
+      marker:
+        icon: wantsumIcon
+        popup: "<b>10.50 am</b><br>Procession to the cathedral starts"
+    - lat: 51.279439
+      lon: 1.083111
+    - lat: 51.279432
+      lon: 1.082462
+    - lat: 51.279516
+      lon: 1.081604
+    - lat: 51.279888
+      lon: 1.081638
+    - lat: 51.279894
+      lon: 1.081845
+      marker:
+        icon: wantsumIcon
+        popup: "<b>11.00 am</b><br>Cathedral Service: Blessing of the hops"
+
+- name: Rose Square
+  points:
+    - lat: 51.279793
+      lon: 1.078727
+      marker:
+        icon: wantsumIcon
+        popup: "<b>2.45 pm</b><br>Procession to Rose Square starts"
+    - lat: 51.279675
+      lon: 1.078887
+    - lat: 51.278713
+      lon: 1.080496
+    - lat: 51.278309
+      lon: 1.081272
+    - lat: 51.278199
+      lon: 1.081326
+    - lat: 51.277543
+      lon: 1.080410
+    - lat: 51.277379
+      lon: 1.080501
+      marker:
+        icon: wantsumIcon
+        popup: "<b>3.00 pm</b><br>Mass dancing"
