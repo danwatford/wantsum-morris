@@ -37,24 +37,15 @@ activeNav: "Hop Hoodening"
 
         <div>There are three tours:</div>
         <dl class="row">
-            <dt class="col-sm-3 tour-1">Wild Western</dt>
+            {% for tour in site.data.hop-hoodening-tours %}
+            <dt class="col-sm-3" style="color: {{tour.colour}}">{{tour.name}} Tour</dt>
             <dd class="col-sm-9">
-                <div>12.20 - Outside the Marlowe Theatre</div>
-                <div>13.05 - The Black Griffin Pub</div>
-                <div class="tour-1">Featuring: Headcorn Morris, East Kent Morris, Loose Women</div>
+                {% for point in tour.points %}
+                <div>{{point.time}} - {{point.description}}</div>
+                {% endfor %}
+                <div style="color: {{tour.colour}}">Featuring: {{tour.sides}}</div>
             </dd>
-            <dt class="col-sm-3 tour-2">Central Heartlands</dt>
-            <dd class="col-sm-9">
-                <div>12.20 - High Street, head of Guildhall Street</div>
-                <div>13.05 - Corner of Orange Street & Sun Street</div>
-                <div class="tour-2">Featuring: Oyster Morris, Kettle Bridge Clogs, Dead Horse Morris and the Broomdashers</div>
-            </dd>
-            <dt class="col-sm-3 tour-3">Far Eastern</dt>
-            <dd class="col-sm-9">
-                <div>12.15 - Outside the Cathedral Shop</div>
-                <div>13.00 - St. George's Tower</div>
-                <div class="tour-3">Featuring: The Hop Queen and Princesses, Rabble, Offcumduns, Wantsum Morris Men</div>
-            </dd>
+            {% endfor %}
         </dl>
     </dd>
     <dt class="col-sm-2">14.45</dt>

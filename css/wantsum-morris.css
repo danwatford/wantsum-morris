@@ -41,16 +41,6 @@ body {
     opacity: 0.7;
 }
 
-.tour-1 {
-    color: #FF3333;
-}
-.tour-2 {
-    color: #3333FF;
-}
-.tour-3 {
-    color: #00cc00;
-}
-
 .tourIcon {
     text-align: center; /* Horizontally center the text (icon) */
     line-height: 40px; /* Vertically center the text (icon) */
