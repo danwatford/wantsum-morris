@@ -2,10 +2,25 @@
 title: "Wantsum Morris: Hop Hoodening Dance Sides"
 layout: "hophoodening"
 activeNav: "Hop Hoodening"
+heading: "Dance Sides: Our Wonderful Guests"
 ---
 
-<p>Wantsum Morris Men’s guests for the day include Offcumduns, Dead Horse
-    Morris, Broom dashers, Long Man Morris Men, Oyster Morris, Ravensbourne Morris Men, Loose Women,
-    Kettle Bridge Clog, Headcorn Morris and Rabble.</p>
+{% for side in site.data.hop-hoodening-guests %}
+<h3>{{side.name}}</h3>
+
+{% for href in side.href %}
+<p><a href="{{href}}" target="_blank">{{href}}</a></p>
+{% endfor %}
+{% for email in side.email %}
+<p><a href="mailto:{{email}}" target="_blank">{{email}}</a></p>
+{% endfor %}
+
+<p>{{side.description}}</p>
+
+{% for image in side.images %}
+<img class="img-fluid" src="/images/{{image}}"/>
+{% endfor %}
+
+{% endfor %}
 
 <p>For more information: <a href="mailto:hophoodening@gmail.com">hophoodening@gmail.com</a></p>

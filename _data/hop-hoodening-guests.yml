@@ -1,0 +1,69 @@
+- name: The Hop Queen and Princesses
+  description: Charlotte, Lucy and Phoebe will be at the heart of the Festival, leading the processions and distributing the Blessed Hops again this year.
+  images:
+    - hop-hoodening-guests-queen-and-princesses.jpg
+
+- name: Rabble
+  description: Rabble are based in Lenham, betwixt Maidstone and Ashford, and dance <strong>Border</strong> Morris.  This year they will be dancing their dance <em>Beggar Boy</em> on the Compass Rose during the Cathedral service.
+  images:
+    - hop-hoodening-guests-rabble.jpg
+  email: tradsfolkart@btconnect.com
+
+- name: Offcumduns Border Morris
+  description: From St Nicholas-at-Wade on Thanet. A fresh and youthful, award-winning local side who practice on Tuesday evenings and are on the lookout for new dancers, young and old.
+  images:
+    - hop-hoodening-guests-offcumduns.jpg
+  href: https://www.facebook.com/offcumdunsbordermorris/
+
+- name: Oyster Morris
+  description: Based in Canterbury itself, they're very much on home turf.  “White shoe” Morris dancers, they dance in a vigorous <strong>Cotswold</strong> style, and bring both women's and men's sides to the festival.
+  images:
+    - hop-hoodening-guests-oyster-women.jpg
+    - hop-hoodening-guests-oyster-men.jpg
+  href:
+    - http://www.oystermorris.org.uk/
+    - https://en-gb.facebook.com/oystermorris/
+
+- name: Dead Horse & the Broomdashers
+  description: Based close by in Whitstable, they practice on Monday evenings, dancing a style that borrows heavily from the <strong>Border</strong> and Molly Dancing styles of Morris.  A strong singing side, the Broomdashers are the ladies' team while Dead Horse refers to the men's side.
+  images:
+    - hop-hoodening-guests-broomdashers.jpg
+  href:
+    - http://deadhorse.org.uk/
+    - https://www.facebook.com/deadhorse.morris
+
+- name: East Kent Morris
+  description: From Mersham, near Ashford.  East Kent is one of the oldest local dance sides and used to organise Hop Hoodening in its earlier days.  They are now a mixed team who dance <strong>Cotswold</strong> Morris.
+  images:
+    - hop-hoodening-guests-east-kent.jpg
+  href:
+    - http://ekmm.org.uk/NEW/
+    - https://www.facebook.com/eastkentmorris/
+
+- name: Loose Women
+  description: From Loose, near Maidstone.  They dance sort of a type of something like <strong>Border</strong> Morris, loosely speaking.  Quite definitely women.  A highly energetic style.  The only Morris side to have their own daytime TV programme - see <a href="https://www.downsmail.co.uk/news_sport/News/Loose_Women_meet_Loose_Women.../" target="_blank">https://www.downsmail.co.uk/news_sport/News/Loose_Women_meet_Loose_Women.../</a>.
+  images:
+    - hop-hoodening-guests-loose-women.jpg
+  href:
+    - https://www.facebook.com/LooseWomenMorris/
+
+- name: Kettle Bridge Clogs
+  description: A ladies' <strong>North West</strong> Morris side from Maidstone.  The dances the team perform are a mixture of traditionally based dances which take the names of the towns in Cheshire and Lancashire where the dances originated, as well as dances created by the team themselves in the North West style.
+  images:
+    - hop-hoodening-guests-kettle-bridge.jpg
+  href:
+    - http://www.kettlebridgeclogs.org/
+
+- name: Headcorn Morris
+  description: Headcorn dance in the <strong>Cotswold</strong> Morris style, and while some of their dances were collected from villages in that region over a century ago, they have endevoured to develop their own unique Headcorn tradition with a selection of new dances.
+  images:
+    - hop-hoodening-guests-headcorn.jpg
+  href:
+    - http://www.headcornmorris.co.uk/
+    - https://www.facebook.com/theheadcornmorris/
+
+- name: Wantsum Morris Men
+  description: That's us – you're here already. We dance <strong>Cotswold</strong> too.
+  images:
+    - hop-hoodening-guests-wantsum.jpg
+
