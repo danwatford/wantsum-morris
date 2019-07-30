@@ -1,49 +1,35 @@
 ---
 title: "Wantsum Morris: Events"
 layout: "default"
+includeMapLibrary: true
 ---
 <section class="event-panel event-intro">
     <h1>Events</h1>
-
     <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="card">
-                    Remembrance Dance at The Bell, St. Nicholas - 7:30pm on Tuesday 16th July 2019
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card">
-                    Minster Summer Fayre - 1pm on Saturday 20th July 2019
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card">
-                    Canterbury Beer Festival - 3pm on Saturday 20th July 2019
-                </div>
-            </div>
-        </div>
+        <dl class="row">
+            {% for event in site.data.events %}
+            <dt class="col-sm-2">{{event.date}} {{event.time}}</dt>
+            <dd class="col-sm-10">
+                <div><strong>{{event.title}}</strong></div>
+                <div>{{event.location}}</div>
+                <div><a href="{{event.href}}">{{event.href}}</a></div>
+            </dd>
+            {% endfor %}
+        </dl>
     </div>
 
     <h1>Past Events</h1>
     <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="card">
-                    Sandwich Folk and Ale - 11am on Sunday 7th July 2019
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card">
-                    Chillam Chase - 1pm on Saturday 6th July 2019
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card">
-                    Chislet Summer Fayre - 1pm on Saturday 29th June 2019
-                </div>
-            </div>
-        </div>
+    <dl class="row">
+        {% for event in site.data.past-events %}
+        <dt class="col-sm-2">{{event.date}} {{event.time}}</dt>
+        <dd class="col-sm-10">
+            <div><strong>{{event.title}}</strong></div>
+            <div>{{event.location}}</div>
+            <div><a href="{{event.href}}">{{event.href}}</a></div>
+        </dd>
+        {% endfor %}
+    </dl>
         <div class="row">
             <div class="col-lg-4">
                 <div class="card">

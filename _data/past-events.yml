@@ -1,0 +1,41 @@
+- title: Kent Beer Festival
+  date: 20/07/2019
+  time: "15:00"
+  location: Canterbury Rugby Club
+  lat: 51.256608
+  lon: 1.081927
+
+- title: Minster Summer Fayre
+  date: 20/07/2019
+  time: "13:00"
+  location: Minster Recreation Ground
+  lat: 51.331944
+  lon: 1.312012
+
+- title: Remembrance Dance at The Bell Inn
+  date: 16/07/2019
+  time: "19:30"
+  location: St. Nicholas
+  lat: 51.353414
+  lon: 1.253368
+
+- title: Sandwich Folk and Ale
+  date: 07/07/2019
+  time: "11:00"
+  location: Sandwitch
+  href: https://sandwichevents.org.uk/folkandalefestival/
+
+- title: Chilham Chase
+  date: 06/07/2019
+  time: "13:00"
+  location: Chilham
+  href: https://www.chilham-castle.co.uk/event/the-chilham-chase-family-fun-run-and-entertainment/
+
+- title: Chislet Summer Fayre
+  date: 29/06/2019
+  time: "13:00"
+  location: Chislet
+  href: https://www.facebook.com/chislet.fair/
+
+
+
