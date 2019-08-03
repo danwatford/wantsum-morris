@@ -1,0 +1,36 @@
+---
+title: "Wantsum Morris: Hop Hoodening Year By Year"
+layout: "hophoodening"
+activeNav: "Hop Hoodening"
+heading: "HOP HOODENING - Year By Year"
+---
+
+{% for event in site.data.hop-hoodening-year-by-year %}
+<p class="text-center font-weight-bold font-italic">{{event.date}}</p>
+<dl>
+    <dt>Attending</dt>
+    <dd>{{event.attending}}</dd>
+    <dt>Hop Queen</dt>
+    <dd>{{event.queen}}</dd>
+    <dt>Hop Princesses</dt>
+    <dd>{{event.princesses}}</dd>
+    <dt>Cathedral Service Display</dt>
+    <dd>{{event.serviceDisplay}}</dd>
+    <dt>Cathedral Service Reading</dt>
+    <dd>{{event.serviceReading}}</dd>
+    <dt>Cathedral Service Address</dt>
+    <dd>{{event.serviceAddress}}</dd>
+</dl>
+
+{% for image in event.images %}
+<div class="row justify-content-center">
+    <div class="col-auto">
+        <figure class="figure">
+            <img class="img-fluid figure-img col-auto" src="/images/hop-hoodening-history/{{event.year}}/{{image.path}}"/>
+            <figcaption class="figure-caption">{{image.caption}}</figcaption>
+        </figure>
+    </div>
+</div>
+{% endfor %}
+{% endfor %}
+
