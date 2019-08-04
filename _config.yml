@@ -31,3 +31,10 @@ theme: minima
 
 plugins:
   - jekyll-sitemap
+
+page_gen:
+  - index_files: false
+    data: 'hop-hoodening-year-by-year'
+    name: 'year'
+    template: 'hh-year'
+    dir: 'hop-hoodening/history/year-by-year'

@@ -1,0 +1,56 @@
+{% include header.html %}
+<body>
+{% include navigation.html %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+
+            <nav class="nav justify-content-between">
+                <a class="nav-link text-muted" href="/hop-hoodening">Introduction</a>
+                <a class="nav-link text-muted" href="/hop-hoodening/dance-sides">Dance Sides</a>
+                <a class="nav-link text-muted" href="/hop-hoodening/schedule">Schedule and Map</a>
+                <a class="nav-link text-muted" href="/hop-hoodening/ale">Hop Hoodening Ale</a>
+                <a class="nav-link text-muted" href="/hop-hoodening/history">History</a>
+                <a class="nav-link text-muted" href="/hop-hoodening/history/year-by-year">Year by Year</a>
+            </nav>
+            <div class="text-center">
+                <img class="hop-image" src="/images/hops-image.png"/>
+                <img class="hop-image" src="/images/hops-image.png"/>
+                <img class="hop-image" src="/images/hops-image.png"/>
+            </div>
+            <p class="text-center font-weight-bold font-italic">{{page.date}}</p>
+            <dl>
+                <dt>Attending</dt>
+                <dd>{{page.attending}}</dd>
+                <dt>Hop Queen</dt>
+                <dd>{{page.queen}}</dd>
+                <dt>Hop Princesses</dt>
+                <dd>{{page.princesses}}</dd>
+                <dt>Cathedral Service Display</dt>
+                <dd>{{page.serviceDisplay}}</dd>
+                <dt>Cathedral Service Reading</dt>
+                <dd>{{page.serviceReading}}</dd>
+                <dt>Cathedral Service Address</dt>
+                <dd>{{page.serviceAddress}}</dd>
+            </dl>
+
+            {% for image in page.images %}
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <figure class="figure">
+                        <img class="img-fluid figure-img col-auto"
+                             src="/images/hop-hoodening-history/{{page.year}}/{{image.path}}"/>
+                        <figcaption class="figure-caption">{{image.caption}}</figcaption>
+                    </figure>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+        <div class="col-md-4">
+            {% include footerCarousel.html %}
+        </div>
+    </div>
+</div>
+{% include footer.html %}
