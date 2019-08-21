@@ -1,0 +1,36 @@
+- name: Wantsum Brewery Taproom
+  href: http://www.wantsumbrewery.co.uk/
+  lat: 51.356841
+  lon: 1.243638
+
+- name: The Chapel, Broadstairs
+  href: https://www.chapelbroadstairs.com/about-us
+  lat: 51.359551
+  lon: 1.443238
+
+- name: The Bouncing Barrel, Herne Bay
+  href:
+    - https://en-gb.facebook.com/thebouncingbarrel/
+    - http://www.micropubassociation.co.uk/micropubs/the-bouncing-barrel/
+  lat: 51.371756
+  lon: 1.130777
+
+- name: Lydden Bell, Dover
+  href: https://www.thelyddenbell.co.uk/
+  lat: 51.163245
+  lon: 1.232668
+
+- name: Hair Of The Dog, Minster
+  href: https://www.hairofthedogpub.co.uk/
+  lat: 51.334422
+  lon: 1.314851
+
+- name: Alfred, Farnham
+  href: https://www.thealfredfreehouse.co.uk/
+  lat: 51.233614
+  lon: -0.803697
+
+- name: Magnet, Broadstairs
+  href: https://en-gb.facebook.com/TheMagnetMicropub/
+  lat: 51.359340
+  lon: 1.442760
