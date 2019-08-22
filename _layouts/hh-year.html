@@ -20,6 +20,9 @@
                 <img class="hop-image" src="/images/hops-image.png"/>
             </div>
             <p class="text-center font-weight-bold font-italic">{{page.date}}</p>
+            {% if page.subTitle %}
+            <p class="font-weight-bold">{{page.subTitle}}</p>
+            {% endif %}
             <dl>
                 <dt>Attending</dt>
                 <dd>{{page.attending}}</dd>
