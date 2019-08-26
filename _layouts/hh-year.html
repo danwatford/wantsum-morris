@@ -28,12 +28,20 @@
                 <dd>{{page.attending}}</dd>
                 <dt>Hop Queen</dt>
                 <dd>{{page.queen}}</dd>
+                {% if page.princesses %}
                 <dt>Hop Princesses</dt>
                 <dd>{{page.princesses}}</dd>
+                {% endif %}
+                {% if page.queensAttendants %}
+                <dt>Hop Queen's Attendants</dt>
+                <dd>{{page.queensAttendants}}</dd>
+                {% endif %}
                 <dt>Cathedral Service Display</dt>
                 <dd>{{page.serviceDisplay}}</dd>
+                {% if page.serviceReading %}
                 <dt>Cathedral Service Reading</dt>
                 <dd>{{page.serviceReading}}</dd>
+                {% endif %}
                 <dt>Cathedral Service Address</dt>
                 <dd>{{page.serviceAddress}}</dd>
             </dl>
@@ -45,8 +53,9 @@
                 <div class="col-auto">
                     <figure class="figure">
                         <img class="img-fluid figure-img col-auto" src="/images/hop-hoodening-history/{{page.year}}/{{image.path}}"/>
+                        {% if image.caption %}
                         <figcaption class="figure-caption">{{image.caption}}</figcaption>
-
+                        {% endif %}
                     </figure>
                 </div>
             </div>

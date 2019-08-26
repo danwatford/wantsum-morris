@@ -156,3 +156,16 @@
     - path: clipping-2.jpg
     - path: clipping-3.jpg
     - path: clipping-4.jpg
+
+- year: 1985
+  date: Saturday 7th September 1985
+  attending: Canterbury District English Folk Dance Club, Cantwara, East Kent Handbell Hoodeners, East Kent Morris Men, King’s Morris, Wantsum Morris Men
+  queen: Marion Lang
+  queensAttendants: Helen Baird, Jean Boon
+  serviceDisplay: Canterbury District English Folk Dance Club, East Kent Handbell Hoodeners, Wantsum Morris Men
+  serviceAddress: Canon Peter Brett
+  followingComment: Followed by dancing in the Cathedral Precincts, Herne Hill and Faversham. Evening Barn Dance in Wickhambreaux
+  images:
+    - path: order-of-service.jpg
+    - path: clipping.jpg
+    - path: poster.jpg
