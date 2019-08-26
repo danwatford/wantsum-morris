@@ -157,6 +157,25 @@
     - path: clipping-3.jpg
     - path: clipping-4.jpg
 
+- year: 2001
+  date: Saturday 8th September 2001
+  attending: East Kent Country Dancers, East Kent Morris Men, Wantsum Morris Men
+  serviceDisplay: East Kent Country Dancers
+  serviceReading: The Deputy Lord Mayor of Canterbury, Councillor Mary Jeffries
+  serviceAddress: The Archdeacon of Canterbury, Revd. John Pritchard
+  followingComment: Followed by dancing in the Cathedral Precincts and in Canterbury City Centre
+  images:
+    - path: archdeacon.jpg
+      caption: The Archdeacon of Canterbury (Revd. John Pritchard),The Precentor and Invicta – Cathedral Precincts
+    - path: precincts-wantsum.jpg
+      caption: "Wantsum Morris Men (L to R: Steve Austen, Michael Perry, Philip Edmonds) – Cathedral Precincts"
+    - path: precincts-east-kent-morris-juniors.jpg
+      caption: East Kent Morris Juniors – Cathedral Precincts
+    - path: street-wantsum.jpg
+      caption: Wantsum Morris Men joined by a member of East Kent Morris Men – High Street, Canterbury
+    - path: longmarket-wantsum.jpg
+      caption: "Wantsum Morris Men (L to R: Michael Perry, Philip Edmonds, Paul Austen, Bert Town, Chris Skates, Dave Stephens) – Longmarket, Canterbury"
+
 - year: 1985
   date: Saturday 7th September 1985
   attending: Canterbury District English Folk Dance Club, Cantwara, East Kent Handbell Hoodeners, East Kent Morris Men, King’s Morris, Wantsum Morris Men
