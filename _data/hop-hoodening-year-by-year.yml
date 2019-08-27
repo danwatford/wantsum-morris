@@ -258,6 +258,39 @@
     - path: longmarket-wantsum.jpg
       caption: "Wantsum Morris Men (L to R: Michael Perry, Philip Edmonds, Paul Austen, Bert Town, Chris Skates, Dave Stephens) – Longmarket, Canterbury"
 
+- year: 1993
+  date: Saturday 4th September 1993
+  serviceDisplay: Cantwara, East Kent Morris Men, Oaken Leaves & East Kent Country Dancers, Wantsum Morris Men
+  serviceReading: David Stephens (Chairman, East Kent District of the English Folk Dance & Song Society)
+  serviceAddress: Canon Christopher Lewis
+  serviceComment: The Lord Mayor of Canterbury, Councillor R. Ruston, was in attendance
+  followingComment: Followed by dancing in the Cathedral Precincts and in Canterbury City Centre
+  images:
+    - path: poster.jpg
+    - path: cathedral-wantsum.jpg
+      caption: Wantsum Morris Men – Canterbury Cathedral
+    - path: cathedral-ekmm.jpg
+      caption: East Kent Morris Men watched by the East Kent Handbell Hoodeners – Canterbury Cathedral
+    - path: cathedral-cantwara.jpg
+      caption: A member of Cantwara with a basket of hops  – Canterbury Cathedral
+
+- year: 1990
+  date: Saturday 1st September 1990
+  serviceDisplay: East Kent Handbell Hoodeners
+  images:
+    - path: poster.jpg
+
+- year: 1986
+  date: Saturday 6th September 1986
+  attending: Cantwara, East Kent Country Dancers, East Kent Handbell Hoodeners, East Kent Morris Men, King’s Morris, Wantsum Morris Men
+  queen: Dawn Winskill
+  followingComment: Cathedral Service followed by dancing in the Cathedral Precincts, Canterbury City Centre, Wickhambreaux and Wingham<br>
+    Evening Barn Dance in Wickhambreaux
+  images:
+    - path: poster.jpg
+    - path: clipping-1.jpg
+    - path: clipping-2.jpg
+
 - year: 1985
   date: Saturday 7th September 1985
   attending: Canterbury District English Folk Dance Club, Cantwara, East Kent Handbell Hoodeners, East Kent Morris Men, King’s Morris, Wantsum Morris Men

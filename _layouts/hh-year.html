@@ -53,11 +53,13 @@
                 <dt>Cathedral Service Address</dt>
                 <dd>{{page.serviceAddress}}</dd>
                 {% endif %}
+                {% if page.serviceComment %}
+                {{page.serviceComment}}
+                {% endif %}
             </dl>
             {% if page.followingComment %}
             <p>{{page.followingComment}}</p>
             {% endif %}
-
 
             <hr/>
 
