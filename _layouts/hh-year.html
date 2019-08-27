@@ -38,15 +38,26 @@
                 <dt>Hop Queen's Attendants</dt>
                 <dd>{{page.queensAttendants}}</dd>
                 {% endif %}
+                {% if page.serviceHeading %}
+                <p class="font-weight-bold">{{page.serviceHeading}}</p>
+                {% endif %}
+                {% if page.serviceDisplay %}
                 <dt>Cathedral Service Display</dt>
                 <dd>{{page.serviceDisplay}}</dd>
+                {% endif %}
                 {% if page.serviceReading %}
                 <dt>Cathedral Service Reading</dt>
                 <dd>{{page.serviceReading}}</dd>
                 {% endif %}
+                {% if page.serviceAddress %}
                 <dt>Cathedral Service Address</dt>
                 <dd>{{page.serviceAddress}}</dd>
+                {% endif %}
             </dl>
+            {% if page.followingComment %}
+            <p>{{page.followingComment}}</p>
+            {% endif %}
+
 
             <hr/>
 

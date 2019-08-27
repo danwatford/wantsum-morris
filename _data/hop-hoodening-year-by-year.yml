@@ -157,6 +157,40 @@
     - path: clipping-3.jpg
     - path: clipping-4.jpg
 
+- year: 2004
+  date: Saturday 11th September 2004
+  attending: East Kent Country Dancers, East Kent Morris Men, Shalesbrook Morris, Wantsum Morris Men
+  queen: Laura Gray
+  serviceHeading: Service in St. Peter’s Anglican Church, St. Peter’s Street, Canterbury
+  followingComment: Followed by dancing in Canterbury City Centre
+  images:
+    - path: rameses.jpg
+      caption: Rameses (Wantsum Morris Men) and the Hop Queen (Laura Gray) – Longmarket, Canterbury
+    - path: wantsum.jpg
+      caption: "Wantsum Morris Men (L to R: Dave Stephens, Michael Perry, Simon Gray, Paul Austen, Martyn Young, Dave Gray, Steve Austen, Alex Steltner) – Longmarket, Canterbury"
+    - path: massed-morris.jpg
+      caption: Massed Morris (East Kent Morris Men, Wantsum Morris Men, Shalesbrook Morris) – Longmarket, Canterbury
+    - path: mass-display-2.jpg
+      caption: Mass display (Wantsum Morris Men, East Kent Morris Men, Shalesbrook Morris, East Kent Country Dancers) - Longmarket, Canterbury
+    - path: clipping.jpg
+      caption: Kentish Gazette (16th September 2004)
+
+- year: 2002
+  date: Saturday 14th September 2002
+  attending: East Kent Country Dancers, East Kent Morris Men, Junior King’s School, Offcumduns, Wantsum Morris Men
+  queen: Laura Gray
+  serviceDisplay: Members of the Junior King’s School
+  serviceReading: The Sheriff of Canterbury, Councillor Brian Hunter
+  serviceAddress: The Vice Dean, The Revd. Canon Richard Marsh
+  followingComment: Followed by dancing in the Cathedral Precincts and in Canterbury City Centre
+  images:
+    - path: procession.jpg
+      caption: Procession into the Cathedral, led by Councillor Brian Hunter (Sheriff of Canterbury) and Margaret Browning (East Kent Country Dancers) – Cathedral Precincts
+    - path: wantsum.jpg
+      caption: "Wantsum Morris Men (L to R: Simon Gray, Dave Stephens, Mike Austen, Bert Town) – Longport, Canterbury"
+    - path: circassian.jpg
+      caption: "Members of the public and Wantsum Morris Men join the East Kent Country Dancers to dance ‘Circassian Circle’ – Longport, Canterbury"
+
 - year: 2001
   date: Saturday 8th September 2001
   attending: East Kent Country Dancers, East Kent Morris Men, Wantsum Morris Men
