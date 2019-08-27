@@ -157,6 +157,37 @@
     - path: clipping-3.jpg
     - path: clipping-4.jpg
 
+- year: 2005
+  date: Saturday 10th September 2005
+  attending: East Kent Country Dancers, East Kent Morris Men, Wantsum Morris Men
+  queen: Laura Gray
+  serviceDisplay: East Kent Morris Men
+  serviceReading: The Sheriff of Canterbury, Councillor Lewis Norris JP
+  serviceAddress: The Vice Dean
+  followingComment: Followed by dancing in the Cathedral Precincts and in Canterbury City Centre
+  images:
+    - path: queen.jpg
+      caption: Laura Gray (Hop Queen) with the bower party from East Kent Country Dancers (Rita Hood, Jeanette Peters, Dawn Winskill, Margaret Browning) – Cathedral Precincts
+    - path: precincts-vice-dean.jpg
+      caption: The Vice Dean, Invicta, Councillor Lewis Norris JP (Sheriff of Canterbury) and Mrs. Norris – Cathedral Precincts
+    - path: precincts-ekmm-1.jpg
+      caption: East Kent Morris Men – Cathedral Precincts
+    - path: precincts-ekmm-2.jpg
+      caption: East Kent Morris Men – Cathedral Precincts
+    - path: precincts-wantsum.jpg
+      caption: Dave Stephens and Peter Roberts (Wantsum Morris Men) – Cathedral Precincts
+    - path: precincts-wantsum-2.jpg
+      caption: "Members of East Kent Morris Men, Wantsum Morris Men and the Hop Queen (Laura Gray) – Cathedral Precincts<br>
+        Wantsum Morris Men: Back L to R: Martyn Young, Peter Roberts, Dave Gray, Alex Steltner.
+        Front L to R: Ben Young, Simon Gray, Dave Stephens"
+    - path: longport-ekmm.jpg
+      caption: East Kent Morris Men and Wantsum Morris Men – Longport, Canterbury
+    - path: st-peters-wantsum.jpg
+      caption: "Wantsum Morris Men – St. Peter’s Street, Canterbury<br>
+                L to R: Steve Austen, Martyn Young, Paul Austen, Dave Gray, Simon Gray, Ben Young, Dave Stephens"
+    - path: st-peters-ekcd.jpg
+      caption: East Kent Country Dancers – St. Peter’s Street, Canterbury
+
 - year: 2004
   date: Saturday 11th September 2004
   attending: East Kent Country Dancers, East Kent Morris Men, Shalesbrook Morris, Wantsum Morris Men
@@ -174,6 +205,23 @@
       caption: Mass display (Wantsum Morris Men, East Kent Morris Men, Shalesbrook Morris, East Kent Country Dancers) - Longmarket, Canterbury
     - path: clipping.jpg
       caption: Kentish Gazette (16th September 2004)
+
+- year: 2003
+  date: Saturday 13th September 2003
+  attending: East Kent Country Dancers, East Kent Morris Men, Offcumduns, Wantsum Morris Men
+  serviceDisplay: East Kent Country Dancers
+  serviceReading: The Sheriff of Canterbury, Councillor Fred Whitemore
+  serviceAddress: The Vice Dean
+  followingComment: Followed by dancing in the Cathedral Precincts and in Canterbury City Centre
+  images:
+    - path: east-kent-morris-men.jpg
+      caption: East Kent Morris Men – Cathedral Precincts
+    - path: wantsum.jpg
+      caption: "Wantsum Morris Men (L to R: Paul Austen, Jim Bywaters, Simon Gray, Mike Austen, Wally Watkins) – Cathedral Precincts"
+    - path: wantsum-musicians.jpg
+      caption: "Wantsum Morris Men (L to R: Dave Stephens, Michael Perry, Pete Roberts, Philip Edmonds) – Cathedral Precincts"
+    - path: offcumduns.jpg
+      caption: Offcumduns – Cathedral Precincts
 
 - year: 2002
   date: Saturday 14th September 2002
