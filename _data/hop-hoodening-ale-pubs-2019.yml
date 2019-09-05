@@ -34,3 +34,11 @@
   href: https://en-gb.facebook.com/TheMagnetMicropub/
   lat: 51.359340
   lon: 1.442760
+
+- name: The Anchor, Sevenoaks
+  href:
+    - http://www.anchorsevenoaks.co.uk/
+    - https://en-gb.facebook.com/anchor7oaks/
+  lat: 51.271121
+  lon: 0.191546
+
