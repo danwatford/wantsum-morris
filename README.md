@@ -21,3 +21,7 @@ The above command will:
 - build the site, placing the results in directory _site.
 - serve the contents of _site at http://localhost:4000.
 - detect changes to the site sources and rebuild.
+
+Running 'jekyll serve' will generate a sitemap.xml file using the http://localhost:4000 location. To generate the site with a sitemap.xml file based on https://wantsum-morris.org.uk
+run the following command:
+- bundle exec jekyll build
