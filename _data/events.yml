@@ -1,7 +1,13 @@
-- title: Boxing Day Tour
-  date: 26/12/2019
+- title: Alex Steltner Memorial Dance
+  date: 05/01/2020
   time: "11:00"
-  location: The Powell Arms, Birchington-on-sea
-  href: https://wantsum-morris.org.uk/boxing-day/
+  description: >-
+    Wantsum Morris Men will be dancing at various locations around Canterbury in memoriam of past member, Alex Steltner.
+    We'll begin our mini-tour outside The Cricketers at 11:00, and finish with dancing in The Unicorn's beer garden at 12:30.
+  location: The Cricketers, 14 St Peter's St, Canterbury CT1 2BQ
+  image: alex-steltner.jpg
+  href:
+  - https://www.cricketerscanterbury.co.uk/
+  - http://www.unicorninn.com/
   lat: 51.373922
   lon: 1.306474

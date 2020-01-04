@@ -12,7 +12,13 @@ includeMapLibrary: true
             <dd class="col-sm-10">
                 <div><strong>{{event.title}}</strong></div>
                 <div>{{event.location}}</div>
-                <div><a href="{{event.href}}">{{event.href}}</a></div>
+                {% for href in event.href %}
+                <div><a href="{{href}}" target="_blank">{{href}}</a></div>
+                {% endfor %}
+                <div>{{event.description}}</div>
+                {% for image in event.image %}
+                <img class="img-fluid" src="/images/{{image}}"/>
+                {% endfor %}
             </dd>
             {% endfor %}
         </dl>
@@ -20,16 +26,21 @@ includeMapLibrary: true
 
     <h1>Past Events</h1>
     <div class="container">
-    <dl class="row">
-        {% for event in site.data.past-events %}
-        <dt class="col-sm-2">{{event.date}} {{event.time}}</dt>
-        <dd class="col-sm-10">
-            <div><strong>{{event.title}}</strong></div>
-            <div>{{event.location}}</div>
-            <div><a href="{{event.href}}">{{event.href}}</a></div>
-        </dd>
-        {% endfor %}
-    </dl>
+        <dl class="row">
+            {% for event in site.data.past-events %}
+            <dt class="col-sm-2">{{event.date}} {{event.time}}</dt>
+            <dd class="col-sm-10">
+                <div><strong>{{event.title}}</strong></div>
+                <div>{{event.location}}</div>
+                {% for href in event.href %}
+                <div><a href="{{href}}" target="_blank">{{href}}</a></div>
+                {% endfor %}
+                {% for image in event.image %}
+                <img class="img-fluid" src="/images/{{image}}"/>
+                {% endfor %}
+            </dd>
+            {% endfor %}
+        </dl>
         <div class="row">
             <div class="col-lg-4">
                 <div class="card">
